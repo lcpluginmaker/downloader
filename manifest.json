@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 4.0,
+  "packageName": "downloader",
+  "packageVersion": "0.0.1",
+  "depends": ["external"],
+  "compatibleVersions": ["2.1.0"],
+  "build": {
+    "folders": [],
+    "downloads": [],
+    "command": "go",
+    "args": ["build", "-o", "share/go-plugin/downloader", "."],
+    "folder": ".",
+    "dlls": [],
+    "share": "./share"
+  },
+  "project": {
+    "maintainer": "alexcoder04",
+    "email": "alexcoder04@protonmail.com",
+    "homepage": "https://github.com/alexcoder04/LeoConsole-apkg",
+    "bugTracker": "https://github.com/alexcoder04/LeoConsole-apkg/issues"
+  }
+}
