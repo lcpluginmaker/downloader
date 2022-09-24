@@ -6,7 +6,7 @@ import (
 
 	"github.com/alexcoder04/arrowprint"
 	"github.com/alexcoder04/friendly"
-	"github.com/alexcoder04/gilc"
+	"github.com/lcpluginmaker/gilc"
 )
 
 func getDownloadDir(data gilc.IData) string {
