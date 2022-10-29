@@ -5,7 +5,7 @@ import (
 	"path"
 
 	"github.com/alexcoder04/arrowprint"
-	"github.com/alexcoder04/friendly"
+	"github.com/alexcoder04/friendly/v2"
 	"github.com/lcpluginmaker/gilc"
 )
 

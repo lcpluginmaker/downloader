@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/alexcoder04/arrowprint"
-	"github.com/alexcoder04/friendly"
+	"github.com/alexcoder04/friendly/v2/ffiles"
 	"github.com/lcpluginmaker/gilc"
 )
 
@@ -15,7 +15,7 @@ func pcommand(data gilc.IData, args []string) {
 	}
 
 	dlDir := getDownloadDir(data)
-	if !friendly.IsDir(dlDir) {
+	if !ffiles.IsDir(dlDir) {
 		err := os.MkdirAll(dlDir, 0700)
 		if err != nil {
 			arrowprint.Err0("cannot create download folder: %s", err.Error())
